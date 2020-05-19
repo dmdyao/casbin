@@ -1,0 +1,11 @@
+p, admin, /cust/GetUser, read
+p, admin, /cust/CreateUser, write
+p, admin, /content/GetContent, read
+p, admin, /content/CreateContent, write
+p, platformAdmin, /cust/CreateUser, write
+p, platformAdmin, /content/CreateContent, write
+p, managementAdmin, /cust/GetUser, read
+p, managementAdmin, /content/GetContent, read
+
+g, cjc, admin
+g, zym, platformAdmin
