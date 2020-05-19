@@ -1,0 +1,7 @@
+p, cjc, /cust/GetUser, read
+p, cjc, /content/CreateContent, write
+p, cjc, /content/GetContent, read
+p, zym, /cust/GetUser, read
+p, zym, /cust/CreateUser, write
+p, zym, /content/CreateContent, write
+p, zym, /content/GetContent, read
